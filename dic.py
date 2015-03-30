@@ -11,7 +11,7 @@ import urllib2
 """
 
 
-class Dict:
+class Dic:
     key = '1190944980'
     keyFrom = 'wangminli'
     api = 'http://fanyi.youdao.com/openapi.do?keyfrom=wangminli&key=1190944980&type=data&doctype=json&version=1.1&q='
@@ -65,4 +65,4 @@ class Dict:
             print 'DO\'T HAVE THIS WORD'
 
 if __name__ == '__main__':
-    Dict(sys.argv[1:])
+    Dic(sys.argv[1:])
